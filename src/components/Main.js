@@ -14,7 +14,7 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic01} alt="" />
-            <p>Currently residing </p></span>
+            <p>Here is some great shit about me </p></span>
           {close}
         </article>
 
