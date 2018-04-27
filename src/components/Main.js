@@ -21,9 +21,9 @@ class Main extends React.Component {
         <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
           <ul className="icons">
-            <span style={{ border: 'none', margin: '1rem' }}> <li style={{ paddingRight: '.5rem' }}><a href="https://rdebeer1.github.io/Football-Database" target="_blank"className="icon fa-trophy"></a></li> Football-Database</span>
-            <span style={{ border: 'none', margin: '1rem' }}> <li style={{ paddingRight: '.5rem' }}><a href="https://rdebeer1.github.io/SocialMedium/" target="_blank" className="icon fa-headphones"></a></li> SocialMedium</span>
-            <span style={{ border: 'none', margin: '1rem' }}> <li style={{ paddingRight: '.5rem' }}><a href="http://trumpchange.herokuapp.com/" target="_blank" className="icon fa-dollar"></a></li> TrumpChange</span>
+            <li style={{ paddingRight: '.5rem', margin: '1rem' }}><a href="https://rdebeer1.github.io/Football-Database" target="_blank" className="icon fa-trophy"></a> Football-Database</li>
+            <li style={{ paddingRight: '.5rem', margin: '1rem' }}><a href="https://rdebeer1.github.io/SocialMedium/" target="_blank" className="icon fa-headphones"></a> SocialMedium</li>
+            <li style={{ paddingRight: '.5rem', margin: '1rem' }}><a href="http://trumpchange.herokuapp.com/" target="_blank" className="icon fa-dollar"></a> TrumpChange</li>
           </ul>
           {close}
         </article>
