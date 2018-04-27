@@ -21,9 +21,9 @@ class Main extends React.Component {
         <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
           <ul className="icons">
-            <a style={{ border: 'none', margin: '1rem' }} href="https://rdebeer1.github.io/Football-Database" target="_blank"> <li style={{ paddingRight: '.5rem' }}><a className="icon fa-trophy"></a></li> Football-Database</a>
-            <a style={{ border: 'none', margin: '1rem' }} href="https://rdebeer1.github.io/SocialMedium/" target="_blank"> <li style={{ paddingRight: '.5rem' }}><a className="icon fa-headphones"></a></li> SocialMedium</a>
-            <a style={{ border: 'none', margin: '1rem' }} href="http://trumpchange.herokuapp.com/" target="_blank"> <li style={{paddingRight: '.5rem'}}><a className="icon fa-dollar"></a></li> TrumpChange</a>
+            <span style={{ border: 'none', margin: '1rem' }}> <li style={{ paddingRight: '.5rem' }}><a href="https://rdebeer1.github.io/Football-Database" target="_blank"className="icon fa-trophy"></a></li> Football-Database</span>
+            <span style={{ border: 'none', margin: '1rem' }}> <li style={{ paddingRight: '.5rem' }}><a href="https://rdebeer1.github.io/SocialMedium/" target="_blank" className="icon fa-headphones"></a></li> SocialMedium</span>
+            <span style={{ border: 'none', margin: '1rem' }}> <li style={{ paddingRight: '.5rem' }}><a href="http://trumpchange.herokuapp.com/" target="_blank" className="icon fa-dollar"></a></li> TrumpChange</span>
           </ul>
           {close}
         </article>
