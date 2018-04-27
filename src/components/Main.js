@@ -23,7 +23,7 @@ class Main extends React.Component {
           <ul className="icons">
             <a style={{ border: 'none', margin: '1rem' }} href="https://rdebeer1.github.io/Football-Database" target="_blank"> <li style={{ paddingRight: '.5rem' }}><a className="icon fa-trophy"></a></li> Football-Database</a>
             <a style={{ border: 'none', margin: '1rem' }} href="https://rdebeer1.github.io/SocialMedium/" target="_blank"> <li style={{ paddingRight: '.5rem' }}><a className="icon fa-headphones"></a></li> SocialMedium</a>
-            <a style={{border: 'none', margin: '1rem'}} href="#" target="_blank"> <li style={{paddingRight: '.5rem'}}><a className="icon fa-dollar"></a></li> TrumpChange</a>
+            <a style={{ border: 'none', margin: '1rem' }} href="http://trumpchange.herokuapp.com/" target="_blank"> <li style={{paddingRight: '.5rem'}}><a className="icon fa-dollar"></a></li> TrumpChange</a>
           </ul>
           {close}
         </article>
