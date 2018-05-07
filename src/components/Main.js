@@ -11,10 +11,16 @@ class Main extends React.Component {
 
     return (
       <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, width: '100%'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={pic01} alt="" />
-            <p>Here is some great shit about me </p></span>
+          <span className="image main" style={{ display: 'flex', margin: 0 }}><img src={pic01} alt="" />
+            <p style={{ flex: 1, letterSpacing: '2px'}}>I recently left my last job in pursuit of a profession that matches my passions. My last employer was PoolCorp and I worked within their distribution network (SCP Distributors LLC, 
+              Superior Pool Product LLC, & National Pool & Tile Group) as both a Product Specialist and Business Development Representative.  
+              I am a Dallas native but recently moved to Austin from San Diego. I was with my last employer for a little over 3 years, working with multiple sales teams, 
+              managers, and customers. I managed over 80 accounts across San Diego County and generated over $13 million in sales with 
+              these accounts in 2017. I excel at building relationships with my customers and providing them with exceptional service. At the beggining of 2018 I attended Hack Reactor in downtown Austin to increase
+              my profency/skills with JavaScript and its many frameworks. I am looking for new opportunities in the tech industry around the
+              Austin or Dallas areas. I am driven, hardworking, and always forward thinking; being stagnant is not an option.</p></span>
           {close}
         </article>
 
