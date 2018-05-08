@@ -6,6 +6,7 @@ import pic03 from '../images/pic03.jpg'
 import resume from '../images/resume.jpg'
 
 class Main extends Component {
+
   render() {
     let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
     const styles={
@@ -18,6 +19,8 @@ class Main extends Component {
       },
       fluidContainer: {
         flex: '0 0 30 %',
+        display: 'flex',
+        justifyContent: 'center',
       }
     }
     return (
@@ -45,14 +48,17 @@ class Main extends Component {
           {close}
         </article>
 
-        <article id="resume" className={`${this.props.article === 'resume' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, paddingLeft: '1rem', paddingRight: '1em', paddingTop: '1rem', paddingBottom: '1rem', width: '25rem'}}>
+        <article id="resume" className={`${this.props.article === 'resume' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, paddingLeft: '1rem', paddingRight: '1em', paddingTop: '1rem', paddingBottom: '1rem', width: '25rem', background: 'none'}}>
           <h2 className="major">Resume</h2>
           <div style={styles.fluid}>
             <div style={styles.fluidContainer}>
-              <ReactImageMagnify isEnlargedImagePortalEnabledForTouch={true} isActivatedOnTouch={true} {...{
+              <ReactImageMagnify {...{
               smallImage: {
                 alt: '',
-                isFluidWidth: true,
+                // width: 316.38,
+                // height: 409.42,
+                width: 368,
+                height: 476.23,
                 src: resume,
               },
               largeImage: {
@@ -63,10 +69,12 @@ class Main extends Component {
               isHintEnabled: true,
               shouldHideHintAfterFirstActivation: false,
               enlargedImagePosition: 'over',
+              isEnlargedImagePortalEnabledForTouch: true, 
+              isActivatedOnTouch: true
             }} />
+              {close}
             </div>
           </div>
-          {close}
         </article>
 
 
