@@ -10,6 +10,7 @@ const Footer = (props) => (
             <li><a href="https://twitter.com/RobertDeBeer" target="_blank" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
         </ul>
     </footer>
+    
 )
 
 Footer.propTypes = {
