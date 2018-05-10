@@ -25,16 +25,21 @@ class Main extends Component {
     }
     return (
       <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, height:'100vh', overflow: 'scroll'}}>
+        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, height: '100vh', overflow: 'scroll', paddingTop: '1em'}}>
           <h2 className="major">About</h2>
-          <span className="image main" style={{ flex: 1, margin: 0 }}><img style={{ flex: 1, maxWidth: '15rem'}} src={pic01} alt="" /></span>
-            <p style={{ flex: 1, letterSpacing: '2px'}}>I recently left my last job in pursuit of a profession that matches my passions. My last employer was PoolCorp and I worked within their distribution network (SCP Distributors LLC, 
-              Superior Pool Product LLC, & National Pool & Tile Group) as both a Product Specialist and Business Development Representative.  
-              I am a Dallas native but recently moved to Austin from San Diego. I was with my last employer for a little over 3 years, working with multiple sales teams, 
-              managers, and customers. I managed over a hundred accounts across San Diego County and generated over $13 million in sales with 
-              these accounts in 2017. I excel at building relationships with my customers and providing them with exceptional service. At the beginning of 2018 I attended Hack Reactor in downtown Austin to increase
-              my prophecy/skills with JavaScript and its many frameworks. I am looking for new opportunities in the tech industry around the
-              Austin or Dallas areas. I am driven, hardworking, and always forward thinking; being stagnant is not an option.</p>
+          <span className="image main" style={{ flex: 1, margin: 0, paddingBottom: '1em'}}><img style={{ flex: 1, maxWidth: '15rem'}} src={pic01} alt="" /></span> <br/>
+          <p style={{ flex: 1, letterSpacing: '2px', color: '#fff' }}>
+            <ul className="icons" style={{marginBottom: '3em'}}>
+              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center'}} className="icon fa-map-marker" /><span style={{ flex: 1 }}>Dallas native. Recently moved from San Diego to Austin.</span></li>
+              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center'}} className="icon fa-briefcase" /><span style={{ flex: 1 }}>Left my last career to pursue a job that I could be more passionate about.</span></li>
+              <li style={{ display: 'flex', marginBottom: '.5em', alignItems:'center'}}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-barcode" /><span style={{ flex: 1 }}>Worked in distribution as both a Product Specialist and Business Development Representative.</span></li> 
+              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-dollar" /><span style={{ flex: 1 }}>Managed over a hundred accounts, generating over $13 million in sales.</span></li> 
+              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-users" /><span style={{ flex: 1 }}>Excel at building relationships with customers and providing exceptional service.</span></li> 
+              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-code-fork" /><span style={{ flex: 1 }}>Attended Hack Reactor to increase my prophecy/skills with JavaScript and its many frameworks.</span></li> 
+              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-search" /><span style={{ flex: 1 }}>Searching for new opportunities in the tech industry, preferably around the Austin or Dallas markets.</span></li> 
+              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-bolt" /><span style={{ flex: 1 }}>Driven, hardworking, and always forward thinking; being stagnant is not an option.</span ></li > 
+            </ul>
+          </p>
           {close}
         </article>
 
@@ -48,7 +53,7 @@ class Main extends Component {
           {close}
         </article>
 
-        <article id="resume" className={`${this.props.article === 'resume' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, paddingLeft: '1rem', paddingRight: '1em', paddingTop: '1rem', paddingBottom: '1rem', width: '25rem', background: 'none'}}>
+        <article id="resume" className={`${this.props.article === 'resume' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, paddingLeft: '1rem', paddingRight: '1em', paddingTop: '1rem', paddingBottom: '1rem', width: '25rem'}}>
           <h2 className="major">Resume</h2>
           <div style={styles.fluid}>
             <div style={styles.fluidContainer}>
