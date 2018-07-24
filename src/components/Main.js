@@ -24,7 +24,7 @@ class Main extends Component {
       }
     }
     return (
-      <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
+      <div id="main" style={this.props.timeout ? {display: 'flex', backgroundColor: 'aqua'} : {display: 'none'}}> 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, height: '100vh', overflow: 'scroll', paddingTop: '1em'}}>
           <h2 className="major">About</h2>
           <span className="image main" style={{ flex: 1, margin: 0, paddingBottom: '1em'}}><img style={{ flex: 1, maxWidth: '15rem'}} src={pic01} alt="" /></span> <br/>
