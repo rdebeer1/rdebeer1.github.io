@@ -49,14 +49,42 @@
 	@import 'layout/footer';
 
 	@font-face {
-		font-family: "Operator Mono SSm";
-		src: 
-			url('../fonts/OperatorMonoSSm-Bold.otf'),
-			url('../fonts/OperatorMonoSSm-BoldItalic.otf'),
-			url('../fonts/OperatorMonoSSm-Book.otf'),
-			url('../fonts/OperatorMonoSSm-BookItalic.otf'),
-			url('../fonts/OperatorMonoSSm-Light.otf'),
-			url('../fonts/OperatorMonoSSm-LightItalic.otf'),
-			url('../fonts/OperatorMonoSSm-Medium.otf'),
-			url('../fonts/OperatorMonoSSm-MediumItalic.otf');
+		font-family: "OperatorMonoSSm-Bold";
+		src: url('../fonts/OperatorMonoSSm-Bold.otf');
+		font-style: normal;
+	}
+	@font-face {
+		font-family: "OperatorMonoSSm-BoldItalic";
+		src: url('../fonts/OperatorMonoSSm-BoldItalic.otf');
+		font-style: italic;
+	}
+	@font-face {
+		font-family: "OperatorMonoSSm-BookItalic";
+		src: url('../fonts/OperatorMonoSSm-BookItalic.otf');
+		font-style: italic;
+	}
+	@font-face {
+		font-family: "OperatorMonoSSm-LightItalic";
+		src: url('../fonts/OperatorMonoSSm-LightItalic.otf');
+		font-style: italic;
+	}
+	@font-face {
+		font-family: "OperatorMonoSSm-MediumItalic";
+		src: url('../fonts/OperatorMonoSSm-MediumItalic.otf');
+		font-style: italic;
+	}
+	@font-face {
+		font-family: "OperatorMonoSSm-Book";
+		src: url('../fonts/OperatorMonoSSm-Book.otf');
+		font-style: normal;
+	}
+	@font-face {
+		font-family: "OperatorMonoSSm-Light";
+		src: url('../fonts/OperatorMonoSSm-Light.otf');
+		font-style: normal;
+	}
+	@font-face {
+		font-family: "OperatorMonoSSm-Medium";
+		src: url('../fonts/OperatorMonoSSm-Medium.otf');
+		font-style: normal;
 	}

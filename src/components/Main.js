@@ -26,35 +26,35 @@ class Main extends Component {
     return (
       <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}> 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none'}}>
-          <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'normal', fontWeight: 500, letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>About</h2>
+          <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Bold', letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>About</h2>
           <ul className="alt">
-              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'italic', fontWeight: 100, color: '#706E70', borderColor: '#74DCE9'}}>// Driven, hardworking, and always forward thinking; being stagnant is not an option.</li> 
-              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'italic', fontWeight: 100, color: '#706E70', borderColor: '#74DCE9'}}>// Attended Hack Reactor to increase my prophecy/skills with JavaScript and its many frameworks. 
+              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', borderColor: '#74DCE9'}}>// Driven, hardworking, and always forward thinking; being stagnant is not an option.</li> 
+              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', borderColor: '#74DCE9'}}>// Attended Hack Reactor to increase my prophecy/skills with JavaScript and its many frameworks. 
               Searching for new opportunities in the tech industry, preferably around the Austin or Dallas markets</li> 
-              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'italic', fontWeight: 100, color: '#706E70', borderColor: '#74DCE9'}}>// Dallas native. Recently moved from San Diego to Austin.
+              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', borderColor: '#74DCE9'}}>// Dallas native. Recently moved from San Diego to Austin.
               Left my last career to pursue a job that I could be more passionate about.</li>
           </ul>
           {close}
         </article>
 
         <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none'}}>
-          <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'normal', fontWeight: 500, letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>Projects</h2>
+          <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Bold',  letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>Projects</h2>
           <ul className='actions'>
-            <li style={{ fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'italic', fontWeight: 100, color: '#706E70', border: 'none', textAlign: 'left'}}>//
+            <li style={{ fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', border: 'none', textAlign: 'left'}}>//
               <a style={{border: 'none', color:'#706E70'}}  href="https://rdebeer1.github.io/Football-Database" target="_blank"> Football-Database</a>
               <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
                 <li style={{border: 'none'}}><a href="https://rdebeer1.github.io/Football-Database" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
                 <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
               </ul>
             </li>
-            <li style={{ fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'italic', fontWeight: 100, color: '#706E70', border: 'none', textAlign: 'left'}}>//
+            <li style={{ fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', border: 'none', textAlign: 'left'}}>//
               <a style={{border: 'none', color:'#706E70'}}  href="https://debeer-burgerbuilder.firebaseapp.com/" target="_blank"> Burger-Builder</a>
               <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
                 <li style={{border: 'none'}}><a href="https://debeer-burgerbuilder.firebaseapp.com/"  target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
                 <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
               </ul>
             </li>
-            <li style={{ fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'italic', fontWeight: 100, color: '#706E70', border: 'none', textAlign: 'left'}}>//
+            <li style={{ fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', border: 'none', textAlign: 'left'}}>//
               <a style={{border: 'none', color:'#706E70'}}  href="http://trumpchange.herokuapp.com/" target="_blank"> TrumpChange</a>
               <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
                 <li style={{border: 'none'}}><a href="http://trumpchange.herokuapp.com/" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
@@ -66,7 +66,7 @@ class Main extends Component {
         </article>
 
         <article id="resume" className={`${this.props.article === 'resume' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none'}}>
-          <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'normal', fontWeight: 500, letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>Resume</h2>
+          <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Bold', letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>Resume</h2>
           <div style={styles.fluid}>
             <div style={styles.fluidContainer}>
               <ReactImageMagnify {...{
@@ -96,7 +96,7 @@ class Main extends Component {
 
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'normal', fontWeight: 500, letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>Contact</h2>
+          <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Bold', letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>Contact</h2>
           <form method="post" action="https://formspree.io/robert.debeer@gmail.com" method="POST">
             <div className="field half first">
               <label htmlFor="name">Name</label>
