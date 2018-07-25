@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactImageMagnify from 'react-image-magnify';
-import pic01 from '../images/pic01.jpg'
+import pic01 from '../images/pic04.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import resume from '../images/resume.jpg'
@@ -24,29 +24,43 @@ class Main extends Component {
       }
     }
     return (
-      <div id="main" style={this.props.timeout ? {display: 'flex', backgroundColor: 'aqua'} : {display: 'none'}}> 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, height: '100vh', overflow: 'scroll', paddingTop: '1em'}}>
+      <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}> 
+        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, height: '80vh', width: '40%', overflow: 'scroll', paddingTop: '1em'}}>
           <h2 className="major">About</h2>
-          <span className="image main" style={{ flex: 1, margin: 0, paddingBottom: '1em'}}><img style={{ flex: 1, maxWidth: '15rem'}} src={pic01} alt="" /></span> <br/>
-          <ul className="icons" style={{ marginBottom: '3em', letterSpacing: '2px' }}>
-              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center'}} className="icon fa-map-marker" /><span style={{ flex: 1 }}>Dallas native. Recently moved from San Diego to Austin.</span></li>
-              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center'}} className="icon fa-briefcase" /><span style={{ flex: 1 }}>Left my last career to pursue a job that I could be more passionate about.</span></li>
-              <li style={{ display: 'flex', marginBottom: '.5em', alignItems:'center'}}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-barcode" /><span style={{ flex: 1 }}>Worked in distribution as both a Product Specialist and Business Development Representative.</span></li> 
-              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-dollar" /><span style={{ flex: 1 }}>Managed over a hundred accounts, generating over $13 million in sales.</span></li> 
-              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-users" /><span style={{ flex: 1 }}>Excel at building relationships with customers and providing exceptional service.</span></li> 
-              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-code-fork" /><span style={{ flex: 1 }}>Attended Hack Reactor to increase my prophecy/skills with JavaScript and its many frameworks.</span></li> 
-              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-search" /><span style={{ flex: 1 }}>Searching for new opportunities in the tech industry, preferably around the Austin or Dallas markets.</span></li> 
-              <li style={{ display: 'flex', marginBottom: '.5em', alignItems: 'center' }}><span style={{ flex: .1, textAlign: 'center' }} className="icon fa-bolt" /><span style={{ flex: 1 }}>Driven, hardworking, and always forward thinking; being stagnant is not an option.</span ></li > 
+          <ul className="alt">
+              <li style={{textAlign: 'center', fontFamily: 'Operator Mono Ssm', fontStyle: 'italic', fontWeight: 100, color: '#706E70', borderColor: '#74DCE9'}}>// Driven, hardworking, and always forward thinking; being stagnant is not an option.</li> 
+              <li style={{textAlign: 'center', fontFamily: 'Operator Mono Ssm', fontStyle: 'italic', fontWeight: 100, color: '#706E70', borderColor: '#74DCE9'}}>// Attended Hack Reactor to increase my prophecy/skills with JavaScript and its many frameworks. 
+              Searching for new opportunities in the tech industry, preferably around the Austin or Dallas markets</li> 
+              <li style={{textAlign: 'center', fontFamily: 'Operator Mono Ssm', fontStyle: 'italic', fontWeight: 100, color: '#706E70', borderColor: '#74DCE9'}}>// Dallas native. Recently moved from San Diego to Austin.
+              Left my last career to pursue a job that I could be more passionate about.</li>
           </ul>
           {close}
         </article>
 
         <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', margin: 0, width: '100%'}}>
           <h2 className="major">Projects</h2>
-          <ul className="icons">
-            <li style={{ paddingRight: '.5rem', margin: '1rem' }}><a href="https://rdebeer1.github.io/Football-Database" target="_blank" className="icon fa-trophy"></a> Football-Database</li>
-            <li style={{ paddingRight: '.5rem', margin: '1rem' }}><a href="https://rdebeer1.github.io/SocialMedium/" target="_blank" className="icon fa-headphones"></a> SocialMedium</li>
-            <li style={{ paddingRight: '.5rem', margin: '1rem' }}><a href="http://trumpchange.herokuapp.com/" target="_blank" className="icon fa-dollar"></a> TrumpChange</li>
+          <ul className='alt'>
+            <li style={{ fontFamily: 'Operator Mono Ssm', fontStyle: 'italic', fontWeight: 100, color: '#706E70', border: 'none'}}>//
+              <a style={{border: 'none', color:'#706E70'}}  href="https://rdebeer1.github.io/Football-Database" target="_blank"> Football-Database</a>
+              <ul className='actions' style={{textAlign: 'center'}}>
+                <li style={{border: 'none'}}><a href="https://rdebeer1.github.io/Football-Database" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
+                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
+              </ul>
+            </li>
+            <li style={{ fontFamily: 'Operator Mono Ssm', fontStyle: 'italic', fontWeight: 100, color: '#706E70', border: 'none'}}>//
+              <a style={{border: 'none', color:'#706E70'}}  href="https://debeer-burgerbuilder.firebaseapp.com/" target="_blank"> Burger-Builder</a>
+              <ul className='actions' style={{textAlign: 'center'}}>
+                <li style={{border: 'none'}}><a href="https://debeer-burgerbuilder.firebaseapp.com/"  target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
+                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
+              </ul>
+            </li>
+            <li style={{ fontFamily: 'Operator Mono Ssm', fontStyle: 'italic', fontWeight: 100, color: '#706E70', border: 'none'}}>//
+              <a style={{border: 'none', color:'#706E70'}}  href="http://trumpchange.herokuapp.com/" target="_blank"> TrumpChange</a>
+              <ul className='actions' style={{textAlign: 'center'}}>
+                <li style={{border: 'none'}}><a href="http://trumpchange.herokuapp.com/" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
+                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
+              </ul>
+            </li>
           </ul>
           {close}
         </article>
