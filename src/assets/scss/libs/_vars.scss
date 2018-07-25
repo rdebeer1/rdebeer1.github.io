@@ -21,7 +21,7 @@
 
 // Font.
 	$font: (
-		family:						('Source Sans Pro', sans-serif),
+		family:						('Operator Mono Ssm', 'OperatorMonoSsm-Book'),
 		family-fixed:				('Courier New', monospace),
 		weight:						300,
 		weight-bold:				600,
@@ -31,9 +31,9 @@
 
 // Palette.
 	$palette: (
-		bg: 					#000,
+		bg: 						rgba(34, 31, 34, .01),
 		bg-alt:					#fff,
-		bg-overlay:		 rgba(58, 29, 58, 0.3),
+		bg-overlay:			rgba(34, 31, 34, 1),
 		fg:							#AB9BF5,
 		fg-bold:					#ffffff,
 		fg-light:					rgba(255,255,255,0.5),
