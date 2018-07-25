@@ -50,5 +50,13 @@
 
 	@font-face {
 		font-family: "Operator Mono SSm";
-		src: url('../fonts/OperatorMonoSSm-Medium.otf')
+		src: 
+			url('../fonts/OperatorMonoSSm-Bold.otf'),
+			url('../fonts/OperatorMonoSSm-BoldItalic.otf'),
+			url('../fonts/OperatorMonoSSm-Book.otf'),
+			url('../fonts/OperatorMonoSSm-BookItalic.otf'),
+			url('../fonts/OperatorMonoSSm-Light.otf'),
+			url('../fonts/OperatorMonoSSm-LightItalic.otf'),
+			url('../fonts/OperatorMonoSSm-Medium.otf'),
+			url('../fonts/OperatorMonoSSm-MediumItalic.otf');
 	}
