@@ -21,8 +21,8 @@
 
 // Font.
 	$font: (
-		family:						('Operator Mono Ssm', 'OperatorMonoSsm-Book'),
-		family-fixed: 		('Operator Mono Ssm', 'OperatorMonoSsm-Book'),
+		family:						('OperatorMonoSsm-Medium', 'OperatorMonoSsm-Medium'),
+		family-fixed: 		('OperatorMonoSsm-Medium', 'OperatorMonoSsm-Medium'),
 		weight:						300,
 		weight-bold:				600,
 		letter-spacing:				0.2rem,
@@ -38,6 +38,6 @@
 		fg-bold:					#ffffff,
 		fg-light:					rgba(255,255,255,0.5),
 		border:						#fff,
-		border-bg:					rgba(255, 95, 135, 0.9),
+		border-bg:					rgba(171, 155, 245, 0.9),
 		border-bg-alt:				rgba(255,255,255,0.175)
 	);

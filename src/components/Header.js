@@ -6,7 +6,7 @@ const Header = (props) => (
             <span className="icon fa-code"></span>
         </div>
         <div className="content">
-            <div className="inner" style={{fontFamily: 'Operator Mono Ssm'}}>
+            <div className="inner" style={{fontFamily: 'OperatorMonoSsm-Medium'}}>
                 <h1 style={{fontWeight: 500, textTransform: 'none', fontStyle: 'italic'}}>Welcome</h1>
                 <div style={{width: '98%', textAlign: 'left', fontSize: '85%', fontWeight: 500, textTransform: 'none'}}>
                     <span style={{ color: '#74DCE9', fontStyle: 'italic' }}> const </span>
@@ -29,7 +29,7 @@ const Header = (props) => (
             </div>
         </div>
         <nav>
-            <ul style={{fontFamily: 'Operator Mono Ssm', fontStyle: 'italic', fontWeight: 100, color: '#fff'}}>
+            <ul style={{fontFamily: 'OperatorMonoSsm-Medium', fontStyle: 'italic', fontWeight: 300, color: '#fff'}}>
                 <li><a style={{ textTransform: 'none', letterSpacing: 'unset', fontSize: '100%'}} href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a style={{ textTransform: 'none', letterSpacing: 'unset', fontSize: '100%'}} href="javascript:;" onClick={() => {props.onOpenArticle('projects')}}>Projects</a></li>
                 <li><a style={{ textTransform: 'none', letterSpacing: 'unset', fontSize: '100%'}} href="javascript:;" onClick={() => {props.onOpenArticle('resume')}}>Resume</a></li>
