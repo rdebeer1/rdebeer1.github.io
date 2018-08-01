@@ -28,10 +28,10 @@ class Main extends Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none'}}>
           <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Bold', letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>About</h2>
           <ul className="alt">
-              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', borderColor: '#74DCE9'}}>// Driven, hardworking, and always forward thinking; being stagnant is not an option.</li> 
-              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', borderColor: '#74DCE9'}}>// Attended Hack Reactor to increase my prophecy/skills with JavaScript and its many frameworks. 
+              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', borderColor: '#74DCE9', fontStyle: 'italic' }}>// Driven, hardworking, and always forward thinking; being stagnant is not an option.</li> 
+              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', borderColor: '#74DCE9', fontStyle: 'italic' }}>// Attended Hack Reactor to increase my prophecy/skills with JavaScript and its many frameworks. 
               Searching for new opportunities in the tech industry, preferably around the Austin or Dallas markets</li> 
-              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', borderColor: '#74DCE9'}}>// Dallas native. Recently moved from San Diego to Austin.
+              <li style={{textAlign: 'center', fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', borderColor: '#74DCE9', fontStyle: 'italic' }}>// Dallas native. Recently moved from San Diego to Austin.
               Left my last career to pursue a job that I could be more passionate about.</li>
           </ul>
           {close}
@@ -41,21 +41,21 @@ class Main extends Component {
           <h2 className="major" style={{fontFamily: 'OperatorMonoSsm-Bold',  letterSpacing: 0, color: '#fe9861', borderBottom: '#fe9861'}}>Projects</h2>
           <ul className='actions'>
             <li style={{ fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', border: 'none', textAlign: 'left'}}>//
-              <a style={{border: 'none', color:'#706E70'}}  href="https://rdebeer1.github.io/Football-Database" target="_blank"> Football-Database</a>
+              <a style={{border: 'none', color:'#706E70', fontStyle: 'italic' }}  href="https://rdebeer1.github.io/Football-Database" target="_blank"> Football-Database</a>
               <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
                 <li style={{border: 'none'}}><a href="https://rdebeer1.github.io/Football-Database" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
-                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
+                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C', fontStyle: 'italic' }}>GitHub</a></li>
               </ul>
             </li>
             <li style={{ fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', border: 'none', textAlign: 'left'}}>//
-              <a style={{border: 'none', color:'#706E70'}}  href="https://debeer-burgerbuilder.firebaseapp.com/" target="_blank"> Burger-Builder</a>
+              <a style={{border: 'none', color:'#706E70', fontStyle: 'italic' }}  href="https://debeer-burgerbuilder.firebaseapp.com/" target="_blank"> Burger-Builder</a>
               <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
                 <li style={{border: 'none'}}><a href="https://debeer-burgerbuilder.firebaseapp.com/"  target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
                 <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
               </ul>
             </li>
             <li style={{ fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', border: 'none', textAlign: 'left'}}>//
-              <a style={{border: 'none', color:'#706E70'}}  href="http://trumpchange.herokuapp.com/" target="_blank"> TrumpChange</a>
+              <a style={{border: 'none', color:'#706E70', fontStyle: 'italic' }}  href="http://trumpchange.herokuapp.com/" target="_blank"> TrumpChange</a>
               <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
                 <li style={{border: 'none'}}><a href="http://trumpchange.herokuapp.com/" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
                 <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
