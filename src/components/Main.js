@@ -32,21 +32,21 @@ class Main extends Component {
               <a style={{border: 'none', color:'#706E70', fontStyle: 'italic' }}  href="https://rdebeer1.github.io/Football-Database" target="_blank"> Football-Database</a>
               <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
                 <li style={{border: 'none'}}><a href="https://rdebeer1.github.io/Football-Database" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
-                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C', fontStyle: 'italic' }}>GitHub</a></li>
+                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1/Football-Database" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C', fontStyle: 'italic' }}>GitHub</a></li>
               </ul>
             </li>
             <li style={{ fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', border: 'none', textAlign: 'left'}}>//
               <a style={{border: 'none', color:'#706E70', fontStyle: 'italic' }}  href="https://debeer-burgerbuilder.firebaseapp.com/" target="_blank"> Burger-Builder</a>
               <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
                 <li style={{border: 'none'}}><a href="https://debeer-burgerbuilder.firebaseapp.com/"  target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
-                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
+                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1/burger-builder" target="_blank" className="button" style={{ fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
               </ul>
             </li>
             <li style={{ fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', border: 'none', textAlign: 'left'}}>//
               <a style={{border: 'none', color:'#706E70', fontStyle: 'italic' }}  href="http://trumpchange.herokuapp.com/" target="_blank"> TrumpChange</a>
               <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
                 <li style={{border: 'none'}}><a href="http://trumpchange.herokuapp.com/" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70'}}>Link</a></li>
-                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
+                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1/TrumpChange" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C'}}>GitHub</a></li>
               </ul>
             </li>
           </ul>
