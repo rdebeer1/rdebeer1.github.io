@@ -32,7 +32,7 @@ const Header = (props) => (
             <ul style={{fontFamily: 'OperatorMonoSsm-MediumItalic', fontWeight: 300, color: '#fff'}}>
                 <li><a style={{ textTransform: 'none', letterSpacing: 'unset', fontSize: '100%', fontStyle: 'italic' }} href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a style={{ textTransform: 'none', letterSpacing: 'unset', fontSize: '100%', fontStyle: 'italic' }} href="javascript:;" onClick={() => {props.onOpenArticle('projects')}}>Projects</a></li>
-                <li><a style={{ textTransform: 'none', letterSpacing: 'unset', fontSize: '100%', fontStyle: 'italic' }} href="javascript:;" onClick={() => {props.onOpenArticle('resume')}}>Resume</a></li>
+                <li><a style={{ textTransform: 'none', letterSpacing: 'unset', fontSize: '100%', fontStyle: 'italic' }} href="https://zety.com/mycv/RobertDeBeer" alt=''>Resume</a></li>
                 <li><a style={{ textTransform: 'none', letterSpacing: 'unset', fontSize: '100%', fontStyle: 'italic' }} href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
         </nav>
