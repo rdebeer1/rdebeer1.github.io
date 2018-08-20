@@ -49,6 +49,13 @@ class Main extends Component {
                 <li style={{border: 'none'}}><a href="https://github.com/rdebeer1/TrumpChange" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C', fontStyle: 'italic' }}>GitHub</a></li>
               </ul>
             </li>
+            <li style={{ fontFamily: 'OperatorMonoSsm-lightItalic', color: '#706E70', border: 'none', textAlign: 'left'}}>//
+              <a style={{border: 'none', color:'#706E70', fontStyle: 'italic' }}  href="https://itunes.apple.com/us/app/social-places/id1429460753?ls=1&mt=8" target="_blank"> Social-Places (iOS App)</a>
+              <ul className='actions' style={{textAlign: 'center', display: 'flex',alignItems: 'baseline'}}>
+                <li style={{border: 'none'}}><a href="https://itunes.apple.com/us/app/social-places/id1429460753?ls=1&mt=8" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#A8DE70', fontStyle: 'italic' }}>App Store</a></li>
+                <li style={{border: 'none'}}><a href="https://github.com/rdebeer1/social-places" target="_blank" className="button" style={{fontSize: '90%', width: '100%',  letterSpacing: 'unset', lineHeight: 3, height: '3px', marginTop: '10px', boxShadow: 'none', color: '#FFD95C', fontStyle: 'italic' }}>GitHub</a></li>
+              </ul>
+            </li>
           </ul>
           {close}
         </article>
